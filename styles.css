@@ -1,0 +1,40 @@
+@keyframes cyber-pulse {
+    0% { opacity: 0.8; }
+    50% { opacity: 1; }
+    100% { opacity: 0.8; }
+}
+
+.cyber-glow {
+    text-shadow: 0 0 10px rgba(0,255,157,0.7);
+    animation: cyber-pulse 2s ease-in-out infinite;
+}
+
+.neon-border {
+    border: 1px solid #00ff9d;
+    box-shadow: 0 0 15px rgba(0,255,157,0.3);
+}
+
+.process-row {
+    position: relative;
+    overflow: hidden;
+}
+
+.process-row::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(0,255,157,0.1),
+        transparent
+    );
+    transition: 0.5s;
+}
+
+.process-row:hover::after {
+    left: 100%;
+}
