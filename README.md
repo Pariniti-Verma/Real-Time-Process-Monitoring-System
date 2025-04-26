@@ -42,8 +42,8 @@ A dynamic system resource monitoring dashboard with process management capabilit
 ### Setup Instructions
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/real-time-process-monitor.git
-cd real-time-process-monitor
+git clone https://github.com/pariniti-verma/Real-Time-Process-Monitoring-System.git
+cd Real-Time-Process-Monitoring-System
 
 # Install required packages
 pip install dash plotly psutil
