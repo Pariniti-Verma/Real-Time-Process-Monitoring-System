@@ -1,5 +1,3 @@
-# Real-Time-Process-Monitoring-System
-A Python-powered dashboard for live tracking of CPU/memory usage and active processes
 # Real-Time Process Monitoring System
 
 A dynamic system resource monitoring dashboard with process management capabilities, designed for developers and system administrators. This tool provides real-time visualization of CPU/memory usage and enables direct interaction with running processes through an intuitive web interface.
